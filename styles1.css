@@ -1,0 +1,184 @@
+header h1
+{
+    font-size: 3rem;
+}
+
+.jumbotron
+{
+    padding: 64px 12px;
+    margin-bottom: 0px;
+}
+.nav-tabs
+{
+    border: 0;
+}
+
+@media only screen and (min-width:1253px)
+{
+    .nav-tabs
+    {
+        padding-right: 60px;
+    }
+}
+
+.nav-item
+{
+    padding: 20px;
+    margin: 0 3%;
+}
+
+.nav-link
+{
+    border-radius: 0.25rem;
+    margin: 10px 0;
+    text-decoration: underline;
+    text-decoration-color: #111111;
+    color: black;
+}
+
+.active
+{
+    text-decoration: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    color: #e7b91b;
+    border-color: #111111;
+    background: #111111;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover
+{
+    border-color: #111111;
+}
+
+.Container-home
+{
+    width: 100%;
+    position: relative;
+}
+
+.Container-home img
+{
+    width: 100%;
+}
+
+.center
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center h1
+{
+    margin: auto auto;
+}
+
+@media only screen and (max-width: 1190px)
+{
+    .nav-item
+    {
+        padding: 20px;
+        margin: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1046px)
+{
+    .nav-item
+    {
+        padding: 10px;
+        margin: 0 1%;
+    }
+}
+
+@media only screen and (max-width: 820px)
+{
+
+    .nav-item
+    {
+        padding: 5px;
+        margin: 0;
+    }
+    header h1
+    {
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 681px)
+{
+
+    .nav-item
+    {
+        padding: 0px;
+        margin: 0;
+    }
+
+    header h1
+    {
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+
+    .center h1
+    {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 485px)
+{
+
+    .nav-item
+    {
+        width: 20%;
+        padding: 0px;
+        margin: 0;
+    }
+
+    header h1
+    {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 509px)
+{
+    .center h1
+    {
+        font-size: 1.4rem;
+    }
+
+    .jumbotron
+    {
+        padding: 3px 5px;
+    }
+    .nav-item
+    {
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+.yellow
+{
+    background: #e7b91b;
+}
+
+.hrbreak
+{
+    border-top-color: #e7b91b;
+}
+
+#about
+{
+    border: 3px solid  #111111;
+    border-radius: 10px;
+}
