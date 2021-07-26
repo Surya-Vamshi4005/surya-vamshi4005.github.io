@@ -1,2 +1,2 @@
 # Personal Website
-Portfolio website created by me from scratch.
+Portfolio website created from scratch.
